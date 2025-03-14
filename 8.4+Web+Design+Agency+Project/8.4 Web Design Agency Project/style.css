@@ -19,3 +19,36 @@ footer {
   color: midnightblue;
 }
 
+@media(min-width: 681px) {
+  div.left.card {
+    float: left;
+    width: 40%;
+  }
+
+  div.right.card {
+    float: right;
+    width: 40%;
+  }
+
+  img.tile-image {
+    width: 300px;
+    height: 200px;
+    float: left;
+    padding: 0 1rem;
+    margin: auto;
+    /* display: none; */
+  }
+
+  h2 {
+    /* margin: auto; */
+    padding: 0 1rem;
+  }
+
+  p {
+    padding:0 1rem;
+  }
+}
+
+@media (max-width: 680px) {
+
+}
